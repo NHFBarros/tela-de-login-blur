@@ -86,6 +86,12 @@ input[type="submit"] {
     width: 40vh;
 }
 
+input[type="submit"]:hover,
+input[type="checkbox"]:hover,
+label:hover {
+    cursor: pointer;
+}
+
 .botao {
     margin-top: 10px;
     display: flex;
